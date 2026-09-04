@@ -404,7 +404,7 @@ def _gv_render_graph(graph, height: int = 620) -> None:
         st.info(
             "The query ran successfully but returned no graph nodes to draw. "
             "Make sure your `RETURN` clause includes nodes / relationships / paths "
-            "(e.g. `RETURN n, r, m` or `RETURN p`) rather than only scalar properties — "
+            "(e.g. `RETURN n, r, m` or `RETURN p`) rather than only scalar properties. "
         )
         return
 
